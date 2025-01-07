@@ -1,0 +1,14 @@
+{
+      "name": "fastify-sample",
+      "type": "module",
+      "scripts": {
+        "start": "node server.js",
+        "dev": "node --watch server.js"
+      },
+      "dependencies": {
+        "fastify": "^4.23.2",
+        "fastify-compress": "^5.0.0",
+        "fastify-helmet": "^10.2.0",
+        "fastify-rate-limit": "^8.0.2"
+      }
+    }
